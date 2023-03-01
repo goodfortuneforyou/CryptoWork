@@ -1,0 +1,135 @@
+[
+  {
+    "inputs": [],
+    "name": "YouAlreadyRegistered",
+    "type": "error"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "_status",
+        "type": "bool"
+      }
+    ],
+    "name": "changeStatus",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getWorker",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "string",
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "internalType": "address",
+            "name": "Address",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "Rank",
+            "type": "uint256"
+          },
+          {
+            "internalType": "string",
+            "name": "Image",
+            "type": "string"
+          },
+          {
+            "internalType": "bool",
+            "name": "Status",
+            "type": "bool"
+          }
+        ],
+        "internalType": "struct CryptoWork.Worker[]",
+        "name": "",
+        "type": "tuple[]"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_name",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_imageUrl",
+        "type": "string"
+      }
+    ],
+    "name": "register",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_name",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_imageUrl",
+        "type": "string"
+      }
+    ],
+    "name": "updateInformation",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "workerList",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "Name",
+        "type": "string"
+      },
+      {
+        "internalType": "address",
+        "name": "Address",
+        "type": "address"
+      },
+      {
+        "internalType": "uint256",
+        "name": "Rank",
+        "type": "uint256"
+      },
+      {
+        "internalType": "string",
+        "name": "Image",
+        "type": "string"
+      },
+      {
+        "internalType": "bool",
+        "name": "Status",
+        "type": "bool"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
