@@ -1,4 +1,5 @@
 import Head from "next/head";
+
 import { useContext, useState, useEffect } from "react";
 import WorkerCard from "../components/WorkerCard";
 import { Web3Context } from "../context/contextProvider";
